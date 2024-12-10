@@ -1,0 +1,28 @@
+{
+  "name": "airpay-telegram-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot for managing AMB token deposits on the AirDAO blockchain.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "telegraf": "^4.8.6",
+    "ethers": "^6.3.0",
+    "fs": "^0.0.1-security"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "telegram-bot",
+    "amb",
+    "airdao",
+    "blockchain",
+    "telegraf",
+    "ethers"
+  ],
+  "author": "Unixmachine",
+  "license": "MIT"
+}
